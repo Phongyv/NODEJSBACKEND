@@ -19,7 +19,7 @@ app.set('views',path.join(__dirname,'resources/views'))
 
 route(app);
 
-const db = require('./mongodb')
+const db = require('./models/mongodb')
 
 app.listen(3000,()=>{
     console.log('App listenning on port 3000!')
